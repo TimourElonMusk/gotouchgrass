@@ -1,10 +1,12 @@
 <?php 
-require_once('model/ValorantModel.php');
+require_once('model/ValorantData.php');
 
 class ValorantController {
     public function showAgents() {
-        // Create a new instance $agentslist from the class ValorantModel
-        $
+        $agentsList = new ValorantData("agents");
+        $data = $agentsList->getData();
+        $category = $agentsList->getCategory();
+        require_once('view/agentsView.php');
     }
 }
 ?>
