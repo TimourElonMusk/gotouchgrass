@@ -5,6 +5,8 @@
 
 <body>
     <?php include_once ROOT . '/includes/header.php'; ?>
+    
+    <h1>Welcome to <strong>VALORANT DATA</strong> !</h1>
 
     <!--
     <h1>List of </p/?= $category ?></h1>
