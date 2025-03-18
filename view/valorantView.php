@@ -6,7 +6,17 @@
 <body>
     <?php include_once ROOT . '/includes/header.php'; ?>
     
-    <h1>Welcome to <strong>VALORANT DATA</strong> !</h1>
+    <main>
+        <h1>Welcome to <br> <strong class="valo-font">VAlorant DAta</strong></h1>
+
+        <button id="arrowDownBtn"><img src="<?= BASE_URL ?>/images/arrow-down-solid.svg" alt="Arrow down"></button>
+
+        <div id="features">
+            <h2>Features</h2>
+<!--agent's portrait : fullPortraitV2-->
+            <table></table>
+        </div>
+    </main>
 
     <!--
     <h1>List of </p/?= $category ?></h1>
@@ -16,5 +26,7 @@
         <//?php endforeach; ?>
     </ul>
     -->
+
+<script src="<?= BASE_URL ?>/js/main.js"></script>
 </body>
 </html>
