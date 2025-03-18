@@ -1,11 +1,98 @@
 * {
     margin: 0;
+    padding: 0;
+    font-family: "Jaro", sans-serif;
+    color: #ebe8de;
 }
 
 body {
     background-color: #0C0C21;
 }
 
-header img {
+header {
+    position: fixed;
+    z-index: 1000;
+}
+
+.header__banner-container {
     width: 100vw;
+    height: 10vw;
+    overflow: hidden;
+    border-bottom: 3px solid #ebe8de;
+    position: relative;
+}
+
+.header__banner {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 65%;
+    transform: scale(1.02);
+}
+
+nav {
+    background-color: #ff4654;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 300px;
+    list-style: none;
+    font-size: 2rem;
+}
+
+main {
+    padding-top: 10vw;
+}
+
+h1 {
+    font-size: 8rem;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+h1:not(.valo-font) {
+    font-weight: 100;
+    letter-spacing: 0.5rem;
+}
+
+.valo-font {
+    font-family: "VALORANT", sans-serif;
+}
+
+#features h2 {
+    text-align: center;
+}
+
+#arrowDownBtn {
+    display: flex;
+    margin-left: 50%;
+    margin-bottom: 200px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: #ff4654;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#arrowDownBtn:hover {
+    background-color: #a33e46;
+}
+
+#arrowDownBtn img {
+    display: flex;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
