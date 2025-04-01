@@ -9,5 +9,4 @@
             <br> Riot Games, Valorant, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
         </p>
     </div>
-
 </footer>
