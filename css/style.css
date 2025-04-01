@@ -196,3 +196,11 @@ footer .container {
 .footer__logos img {
     width: 30px;
 }
+
+::-webkit-scrollbar {
+    background-color: #ff4654;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ebe8de;
+}

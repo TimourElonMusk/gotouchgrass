@@ -9,9 +9,5 @@
             <br>
             Riot Games, Valorant, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
         </p>
-
-        <ul class="footer__logos">
-            <li><img src="<?= BASE_URL ?>/images/github-brands.svg" alt="Github logo"></li>
-        </ul>
     </div>
 </footer>

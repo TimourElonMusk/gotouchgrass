@@ -1,6 +1,6 @@
 <header>
     <div class="header__banner-container">
-        <img class="header__banner" src="<?= BASE_URL ?>/images/header.jpg" alt="Banner">
+        <a href="<?= BASE_URL ?>/index.php?page=home"><img class="header__banner" src="<?= BASE_URL ?>/images/header.jpg" alt="Banner"></a>
     </div>
     <nav>
         <ul>
