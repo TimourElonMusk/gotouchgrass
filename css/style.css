@@ -198,9 +198,10 @@ footer .container {
 }
 
 ::-webkit-scrollbar {
-    background-color: #ff4654;
+    background-color: #d53643;
+    width: 13px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #ebe8de;
+    background-color: #1f1e1b;
 }
