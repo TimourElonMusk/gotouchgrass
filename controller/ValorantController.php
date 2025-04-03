@@ -12,9 +12,9 @@ class ValorantController {
         require_once('view/homeView.php');
     }
 
-    //public function showAgents(): void {
-        //$agents = $this->data->getAgents();
-        //require_once('view/homeView.php');
-    //}
+    public function showAgents(): void {
+        $agents = $this->data->getAgents();
+        require_once('view/agentsView.php');
+    }
 }
 ?>

@@ -5,8 +5,11 @@
     color: #ebe8de;
 }
 
-body {
+html, body {
     background-color: #0C0C21;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -40,6 +43,14 @@ nav {
     padding: 0 20px;
 }
 
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -51,9 +62,10 @@ nav ul {
 
 main {
     padding-top: 10vw;
+    flex: 1;
 }
 
-h1 {
+.home-h1 {
     font-size: 8rem;
     margin-top: 150px;
     margin-bottom: 60px;
@@ -166,6 +178,8 @@ footer {
     margin-top: 100px;
     background: linear-gradient(90deg, #0f1923 0%, #ff4654 100%);
     padding: 25px;
+    display: flex;
+    bottom: auto;
 }
 
 footer .container {
@@ -203,5 +217,16 @@ footer .container {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #1f1e1b;
+    background-color: #ebe8de;
+}
+
+h1:not(.home-h1) {
+    font-size: 6.5rem;
+    margin-top: 77px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.fullPortraitV2 {
+    width: 50px;
 }

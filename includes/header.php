@@ -4,10 +4,10 @@
     </div>
     <nav>
         <ul>
-            <li><a href="#"></a>Agents</li>
-            <li><a href="#"></a>Gamemodes</li>
-            <li><a href="#"></a>Maps</li>
-            <li><a href="#"></a>Weapons</li>
+            <li><a href="<?= BASE_URL ?>/index.php?page=agents">Agents</a></li>
+            <li><a href="#">Gamemodes</a></li>
+            <li><a href="#">Maps</a></li>
+            <li><a href="#">Weapons</a></li>
         </ul>
     </nav>
 </header>

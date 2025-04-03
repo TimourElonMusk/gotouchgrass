@@ -9,9 +9,9 @@ $controller = new ValorantController(new ValorantData());
 $page = $_GET['page'] ?? 'home';
 
 switch ($page) {
-    //case 'agents':
-        //$controller->showAgents();
-        //break;
+    case 'agents':
+        $controller->showAgents();
+        break;
 
     default:
         $controller->showHome();
