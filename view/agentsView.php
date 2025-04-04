@@ -10,25 +10,28 @@
         <h1>AGENTS</h1>
 
         <div class="grid">
-            <?php
-            foreach ($agents as $agent) {
-                if ($agent["isPlayableCharacter"])
-                echo "<img class=\"fullPortraitV2\" src=\"{$agent['fullPortraitV2']}\" \"alt=\"{$agent['displayName']}'s portrait\">";
-            }
-            ?>    
+            <?php foreach ($agents as $agent):
+                if ($agent["isPlayableCharacter"]): ?>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="fullPortraitV2" src="<?=$agent['fullPortraitV2']?>" alt="Portrait">
+                            </div>
+                            <div class="card-back">
+                                <div class="agent-info">
+                                    <h3>Nom de l'Agent</h3>
+                                    <p>Rôle: Duelist</p>
+                                    <p>Ability 1: Flashbang</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <?php endif;
+            endforeach; ?>
         </div>
     </main>
 
     <?php include_once ROOT . '/includes/footer.php'; ?>
-
-    <!--agent's portrait : fullPortraitV2-->
-    <!--
-    <ul>
-        <//?php foreach ($data['data'] as $item): ?>
-            <li><//?= //$item['displayName'] ?></li>
-        <//?php endforeach; ?>
-    </ul>
-    -->
 
 <script src="<?= BASE_URL ?>/js/main.js"></script>
 </body>
