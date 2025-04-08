@@ -24,16 +24,6 @@
 
     <?php include_once ROOT . '/includes/footer.php'; ?>
 
-    <!--agent's portrait : fullPortraitV2-->
-    <!--
-    <h1>List of </p/?= $category ?></h1>
-    <ul>
-        <//?php foreach ($data['data'] as $item): ?>
-            <li><//?= //$item['displayName'] ?></li>
-        <//?php endforeach; ?>
-    </ul>
-    -->
-
 <script src="<?= BASE_URL ?>/js/main.js"></script>
 </body>
 </html>

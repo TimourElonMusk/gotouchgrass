@@ -15,13 +15,13 @@
                     <div class="card">
                         <div class="card-inner">
                             <div class="card-front">
-                                <img class="fullPortraitV2" src="<?=$agent['fullPortraitV2']?>" alt="Portrait">
+                                <img class="fullPortraitV2" src="<?=$agent["fullPortraitV2"]?>" alt="Portrait">
                             </div>
                             <div class="card-back">
                                 <div class="agent-info">
-                                    <h3>Nom de l'Agent</h3>
-                                    <p>Rôle: Duelist</p>
-                                    <p>Ability 1: Flashbang</p>
+                                    <h2><?=$agent["displayName"]?></h2>
+                                    <img class="role-img" src="<?=$agent["role"]["displayIcon"]?>" alt="Role Icon">
+                                    <p class="description"><?=$agent["description"]?></p>
                                 </div>
                             </div>
                         </div>
