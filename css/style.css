@@ -320,9 +320,30 @@ h1:not(.home-h1) {
 
 .description {
     text-align: left;
+    margin-bottom: 30px;
 }
 
 .role-img {
-width: 23px;
-margin-bottom: 17px;
+    width: 23px;
+    margin-bottom: 17px;
+}
+
+.abilities {
+    display: flex;
+    gap: 15px;
+}
+
+.ability-container {
+    width: 70px;
+    height: 70px;
+    background-color: #181818;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abilities img {
+    width: 60%;
+    display: flex;
 }
