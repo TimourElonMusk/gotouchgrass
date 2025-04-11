@@ -34,18 +34,23 @@
                                     <img class="role-img" src=<?=$agent["role"]["displayIcon"]?> alt="Role Icon" title="<?=$agent["role"]["description"]?>">
                                     <p class="description"><?=$agent["description"]?></p>
                                     <div class="abilities">
-                                        <?php $ability = getAbilityBySlot($agent["abilities"], "Ability1"); ?>
                                         <div class="ability-container">
+                                            <?php $ability = getAbilityBySlot($agent["abilities"], "Ability1"); ?>
                                             <img src="<?=$ability["displayIcon"]?>" alt="Ability 1", title="<?=$ability["displayName"]?> : <?=$ability["description"]?>">
                                         </div>
-                                        <?php $ability = getAbilityBySlot($agent["abilities"], "Ability2"); ?>
                                         <div class="ability-container">
+                                            <?php $ability = getAbilityBySlot($agent["abilities"], "Ability2"); ?>
                                             <img src="<?=$ability["displayIcon"]?>" alt="Ability 2", title="<?=$ability["displayName"]?> : <?=$ability["description"]?>">
                                         </div>
                                         <?php $ability = getAbilityBySlot($agent["abilities"], "Grenade"); ?>
                                         <div class="ability-container">
+                                            <?php $ability = getAbilityBySlot($agent["abilities"], "Grenade"); ?>
                                             <img src="<?=$ability["displayIcon"]?>" alt="Grenade", title="<?=$ability["displayName"]?> : <?=$ability["description"]?>">
                                         </div>
+                                    </div>
+                                    <div class="ult-container">
+                                        <?php $ability = getAbilityBySlot($agent["abilities"], "Ultimate"); ?>
+                                        <img src="<?=$ability["displayIcon"]?>" alt="Ultimate", title="<?=$ability["displayName"]?> : <?=$ability["description"]?>">
                                     </div>
                                 </div>
                             </div>
