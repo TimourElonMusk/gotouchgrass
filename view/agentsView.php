@@ -10,14 +10,14 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <?php include_once ROOT . '/includes/head.php'; ?>
 
 <body>
     <?php include_once ROOT . '/includes/header.php'; ?>
     
-    <main>
+    <main class="agents">
         <h1>AGENTS</h1>
 
         <div class="grid">
@@ -29,7 +29,7 @@
                                 <img class="fullPortraitV2" src=<?=$agent["fullPortraitV2"]?> alt="Portrait">
                             </div>
                             <div class="card-back">
-                                <div class="agent-info">
+                                <div class="card-info">
                                     <h2><?=$agent["displayName"]?></h2>
                                     <img class="role-img" src=<?=$agent["role"]["displayIcon"]?> alt="Role Icon" title="<?=$agent["role"]["description"]?>">
                                     <p class="description"><?=$agent["description"]?></p>

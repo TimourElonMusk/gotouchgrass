@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <?php include_once ROOT . '/includes/head.php'; ?>
 

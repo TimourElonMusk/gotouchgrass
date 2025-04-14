@@ -16,5 +16,10 @@ class ValorantController {
         $agents = $this->data->getAgents();
         require_once('view/agentsView.php');
     }
+
+    public function showGamemodes(): void {
+        $gamemodes = $this->data->getGamemodes();
+        require_once('view/gamemodesView.php');
+    }
 }
 ?>

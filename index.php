@@ -12,6 +12,10 @@ switch ($page) {
     case 'agents':
         $controller->showAgents();
         break;
+    
+    case 'gamemodes':
+        $controller->showGamemodes();
+        break;
 
     default:
         $controller->showHome();

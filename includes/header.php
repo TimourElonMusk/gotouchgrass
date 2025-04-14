@@ -5,7 +5,7 @@
     <nav>
         <ul>
             <li><a href="<?= BASE_URL ?>/index.php?page=agents">Agents</a></li>
-            <li><a href="#">Gamemodes</a></li>
+            <li><a href="<?= BASE_URL ?>/index.php?page=gamemodes">Gamemodes</a></li>
             <li><a href="#">Maps</a></li>
             <li><a href="#">Weapons</a></li>
         </ul>
