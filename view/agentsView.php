@@ -26,12 +26,12 @@
                     <div class="card">
                         <div class="card-inner">
                             <div class="card-front">
-                                <img class="fullPortraitV2" src=<?=$agent["fullPortraitV2"]?> alt="Portrait">
+                                <img src=<?=$agent["fullPortraitV2"]?> alt="Portrait">
                             </div>
                             <div class="card-back">
                                 <div class="card-info">
                                     <h2><?=$agent["displayName"]?></h2>
-                                    <img class="role-img" src=<?=$agent["role"]["displayIcon"]?> alt="Role Icon" title="<?=$agent["role"]["description"]?>">
+                                    <img class="agent__icon" src=<?=$agent["role"]["displayIcon"]?> alt="Role Icon" title="<?=$agent["role"]["description"]?>">
                                     <p class="description"><?=$agent["description"]?></p>
                                     <div class="abilities">
                                         <div class="ability-container">

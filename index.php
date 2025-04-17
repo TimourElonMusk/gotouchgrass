@@ -17,6 +17,14 @@ switch ($page) {
         $controller->showGamemodes();
         break;
 
+    case 'maps':
+        $controller->showMaps();
+        break;
+
+    case 'weapons':
+        $controller->showWeapons();
+        break;
+
     default:
         $controller->showHome();
         break;

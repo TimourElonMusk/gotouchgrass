@@ -21,5 +21,15 @@ class ValorantController {
         $gamemodes = $this->data->getGamemodes();
         require_once('view/gamemodesView.php');
     }
+
+    public function showMaps(): void {
+        $maps = $this->data->getMaps();
+        require_once('view/mapsView.php');
+    }
+
+    public function showWeapons(): void {
+        $weapons = $this->data->getWeapons();
+        require_once('view/weaponsView.php');
+    }
 }
 ?>
